@@ -20,3 +20,13 @@ Add an x-axis label, 'Language', and a y-axis label, 'Conversion rate (%)', both
 Display the plot.
 '''
 
+# Create a bar chart using language_conversion_rate DataFrame
+language_conversion_rate.plot(kind='bar')
+
+# Add a title and x and y-axis labels
+plt.title('Conversion rate by language\n', size = 16)
+plt.ylabel('Conversion rate (%)', size = 14)
+plt.xlabel('Language', size = 14)
+
+# Display the plot
+plt.show()
